@@ -33,4 +33,24 @@ public class Mage extends AbsCharacter {
 
         return null;
     }
+
+    @Override
+    public void moveRight() {
+        System.out.println(this.Name + ": move right furtively .");
+    }
+
+    @Override
+    public void moveLeft() {
+        System.out.println(this.Name + ": move left furtively .");
+    }
+
+    @Override
+    public void moveForward() {
+        System.out.println(this.Name + ": move forward furtively .");
+    }
+
+    @Override
+    public void moveBack() {
+        System.out.println(this.Name + ": move back furtively .");
+    }
 }

@@ -8,7 +8,7 @@
  *
  * @author PROPRIETAIRE
  */
-public abstract class AbsCharacter {
+public abstract class AbsCharacter implements Movable{
 
     String Name;
     String RPGClass;
@@ -49,5 +49,5 @@ public abstract class AbsCharacter {
     }
 
     public abstract String attack(String attack);
-    
+   
 }

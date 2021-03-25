@@ -35,4 +35,24 @@ public class Warrior extends AbsCharacter {
 
         return null;
     }
+
+    @Override
+    public void moveRight() {
+        System.out.println(this.Name + ": move right like a bad boy .");
+    }
+
+    @Override
+    public void moveLeft() {
+        System.out.println(this.Name + ": move left like a bad boy .");
+    }
+
+    @Override
+    public void moveForward() {
+        System.out.println(this.Name + ": move forward like a bad boy .");
+    }
+
+    @Override
+    public void moveBack() {
+        System.out.println(this.Name + ": move back like a bad boy .");
+    }
 }
